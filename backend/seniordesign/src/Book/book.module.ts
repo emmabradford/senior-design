@@ -1,7 +1,7 @@
 import { Module } from '@nestjs/common';
 import { MongooseModule } from '@nestjs/mongoose';
-//import { BookController } from './book.controler';
-//import { BookService } from './book.service';
+import { BooksController } from './book.controller';
+import { BooksService } from './book.service';
 import {
 	Book,
 	BookSchema,
@@ -14,7 +14,7 @@ import {
 			{ name: Book.name, schema: BookSchema },
 		]),
 	],
-	//controllers: [NotificationsController],
-	//providers: [NotificationsService],
+	controllers: [BooksController],
+	providers: [BooksService],
 })
 export class NotificationsModule {}
