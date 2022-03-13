@@ -55,14 +55,9 @@ export class BooksController{
       }
 
     @Delete(':id')
-    async deleteBook(@Body() deleteBookDto){
-        try{
-            await this.booksService.deleteBook(deleteBookDto);
-            return null;
-        } catch(err){
-            console.error(err);
-            throw new HttpException('Error! Cannot delete book', 400);
-        }
-    }
+    async deleteBooks(@Param('id') i: string) {
+        await this.booksService.deleteBook(i);
+        return null;
+      }
 
 }

@@ -30,10 +30,15 @@ export class BooksService{
         return book1.save();
       }
 
-    async deleteBook(deleteBookDto){
-        const result = await this.bookModel.findByIdAndDelete(deleteBookDto).exec();
-        return result;
-    }
+      async deleteBook(i: string) {
+          try{
+        const book = await this.bookModel.deleteOne({ _id: i }).exec();
+          }catch(err)
+        {
+            console.log(err);
+          throw new NotFoundException('could not find the product');
+        }
+      }
 
     async updateBook(i: string, t: string, a: string, np: number, g:Array<string>) {
         console.log(i);
