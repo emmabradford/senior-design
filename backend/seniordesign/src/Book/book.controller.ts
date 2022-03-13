@@ -1,5 +1,7 @@
 import {Body, Controller, Delete, Get, HttpException, HttpStatus, NotFoundException, Param, Patch, Post, Req, Res, UseGuards} from '@nestjs/common';
 import { BooksService} from './book.service';
+import { BookSchema } from './schemas/book.schema';
+import { BookDto } from './book.dto';
 
 @Controller('books')
 
@@ -19,6 +21,7 @@ export class BooksController{
 
     @Get(':id')
     async getBookById(@Param('id') i:string){
+        console.log(i);
         try{
             const result = await this.booksService.getBookById(i);
             return result;
@@ -27,6 +30,17 @@ export class BooksController{
             throw new HttpException('Error! Cannot get book by id', 400);
         }
     }
+
+    @Post()
+   async postBook(@Body() book: BookDto) {
+       try{
+    return this.booksService.postBook(book);
+       }catch(err){
+        console.error(err);
+        throw new HttpException('Error! Cannot post book', 400);
+       }
+  }
+
 
     @Patch(':id')
     async updateBook(@Body() updateBookDto){

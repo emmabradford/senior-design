@@ -2,6 +2,7 @@ import {Injectable, NotFoundException } from '@nestjs/common';
 import {InjectModel} from '@nestjs/mongoose';
 import {Model} from 'mongoose';
 import {Book} from './schemas/book.schema';
+import { BookDto } from './book.dto';
 
 @Injectable()
 export class BooksService{
@@ -21,6 +22,11 @@ export class BooksService{
         );
         return await result.exec();
     }
+
+    public async postBook(book: BookDto) {
+        const book1 = await new this.bookModel(book);
+        return book1.save();
+      }
 
     async deleteBook(deleteBookDto){
         const result = await this.bookModel.findByIdAndDelete(deleteBookDto).exec();

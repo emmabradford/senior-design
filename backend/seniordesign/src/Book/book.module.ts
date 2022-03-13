@@ -6,7 +6,6 @@ import {
 	Book,
 	BookSchema,
 } from './schemas/book.schema';
-//import {NotificationsModule}
 
 @Module({
 	imports: [
@@ -17,4 +16,4 @@ import {
 	controllers: [BooksController],
 	providers: [BooksService],
 })
-export class NotificationsModule {}
+export class BooksModule {}

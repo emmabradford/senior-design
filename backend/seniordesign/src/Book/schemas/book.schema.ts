@@ -4,6 +4,7 @@ import {Document } from 'mongoose';
 @Schema()
 export class Book extends Document
 {
+
    @Prop()
    title: string;
  
