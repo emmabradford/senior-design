@@ -4,6 +4,11 @@ import {Model} from 'mongoose';
 import {Book} from './schemas/book.schema';
 import { BookDto } from './book.dto';
 
+const bookProjection = {
+    __v: false,
+    _id: false,
+  };
+
 @Injectable()
 export class BooksService{
     constructor(
@@ -15,11 +20,8 @@ export class BooksService{
         return results;
     }
 
-    async getBookById(updateBookDto): Promise<Book>{
-        const result = this.bookModel.findByIdAndUpdate(
-            updateBookDto._id,
-            updateBookDto,
-        );
+    async getBookById(i:number): Promise<BookDto>{
+        const result = this.bookModel.findOne({i}, bookProjection);
         return await result.exec();
     }
 

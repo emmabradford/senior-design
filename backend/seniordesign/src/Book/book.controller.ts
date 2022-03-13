@@ -20,7 +20,7 @@ export class BooksController{
     }
 
     @Get(':id')
-    async getBookById(@Param('id') i:string){
+    async getBookById(@Param('id') i:number){
         console.log(i);
         try{
             const result = await this.booksService.getBookById(i);
