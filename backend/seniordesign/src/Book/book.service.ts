@@ -35,13 +35,29 @@ export class BooksService{
         return result;
     }
 
-    async updateBook(updateBookDto): Promise<Book> {
-		const result = this.bookModel.findByIdAndUpdate(
-			updateBookDto._id,
-			updateBookDto,
-		);
-		return await result.exec();
-    }
+    async updateBook(i: string, t: string, a: string, np: number, g:Array<string>) {
+        console.log(i);
+        const newBook = await this.findBook(i);
+    
+        if (t) {
+            newBook.title = t;
+        }
+        if (a) {
+            newBook.author = a;
+        }
+        if (np) {
+            newBook.numPages = np;
+        }
+        if(g){
+            const genres = newBook.genre;
+        g.forEach(e => {
+            if(e && genres.indexOf(e)==-1 ){
+            newBook.genre.push(e);
+            }
+        });     
+          }
+        newBook.save();
+      }
     
     async createBook(createBookDto){
         const newBook = new this.bookModel(createBookDto);

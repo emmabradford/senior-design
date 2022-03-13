@@ -1,4 +1,4 @@
-import {Body, Controller, Delete, Get, HttpException, HttpStatus, NotFoundException, Param, Patch, Post, Req, Res, UseGuards} from '@nestjs/common';
+import {Body, Query, Controller, Delete, Get, HttpException, HttpStatus, NotFoundException, Param, Patch, Post, Req, Res, UseGuards} from '@nestjs/common';
 import { BooksService} from './book.service';
 import { BookSchema } from './schemas/book.schema';
 import { BookDto } from './book.dto';
@@ -43,13 +43,16 @@ export class BooksController{
 
 
     @Patch(':id')
-    async updateBook(@Body() updateBookDto){
-        try{
-            return await this.booksService.updateBook(updateBookDto);
-        } catch(err){
-            throw new HttpException('Error! Cannot update Book', 400);
-        }
-    }
+    async updateProduct(
+        @Param('id') i: string,
+        @Body('title') t: string,
+        @Body('author') a: string,
+        @Body('numPages') np: number,
+        @Body('genre')g:[string]
+      ) {
+        await this.booksService.updateBook(i, t, a, np,g);
+        return null;
+      }
 
     @Delete(':id')
     async deleteBook(@Body() deleteBookDto){
