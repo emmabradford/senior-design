@@ -15,7 +15,7 @@ export class GenreController{
             return result;
         } catch(err){
             console.error(err);
-            throw new HttpException('Error! Cannot get all books', 400);
+            throw new HttpException('Error! Cannot get all genres', 400);
         }
     }
 
