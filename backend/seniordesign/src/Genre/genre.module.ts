@@ -13,11 +13,11 @@ import { Book, BookSchema } from 'src/Book/schemas/book.schema';
 		MongooseModule.forFeature([
 			{ name: Genre.name, schema: GenreSchema },
 		]),
-        MongooseModule.forFeature([
+		MongooseModule.forFeature([
 			{ name: Book.name, schema: BookSchema },
 		]),
 	],
 	controllers: [GenreController],
 	providers: [GenreService],
 })
-export class GenresModule {}
+export class GenresModule { }

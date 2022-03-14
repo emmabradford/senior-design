@@ -14,15 +14,10 @@ import { Book } from './Book/schemas/book.schema';
     BooksModule,
     GenresModule,
     MongooseModule.forFeature([
-			{ name: Book.name, schema: BookSchema },
-		]),
+      { name: Book.name, schema: BookSchema },
+    ]),
   ],
-  controllers: [
-    AppController,
-    // BooksController,
-  ],
-  providers: [AppService,
-    // BooksService,
-  ],
+  controllers: [AppController,],
+  providers: [AppService,],
 })
 export class AppModule { }
