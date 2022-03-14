@@ -14,11 +14,11 @@ import { Book } from 'src/Book/schemas/book.schema';
 //@Injectable()
 export class GenreService{
     constructor(
-       // @InjectModel(Genre.name) 
-        private bookModel: Model<Book>
+     @InjectModel(Book.name)     private bookModel: Model<Book>
     ){}
 
     async getAll(){
+        console.log("hello");
         const books = await this.bookModel.find();
         let genres = [];
         books.forEach(d=>{
