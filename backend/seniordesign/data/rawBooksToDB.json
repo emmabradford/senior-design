@@ -398,7 +398,7 @@
     "Heaven Official's Blessing Vol 2": {
         "title": "Heaven Official's Blessing Vol 2",
         "author": "Mo Xiang Tong Xiu",
-        "genre": ["MXTX", "Fiction"],
+        "genre": ["MXTX", "Fiction", "Fantasy", "LGBT", "Romance"],
         "numPages": 389
     },
     "Partir Para Contar": {
@@ -704,7 +704,7 @@
     "Don Quixote": {
         "title": "Don Quixote",
         "author": "Cervantes",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Literary"],
         "numPages": 942
     },
     "1493": {
@@ -722,13 +722,13 @@
     "Great Expectations": {
         "title": "Great Expectations",
         "author": "Charles Dickens",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 493
     },
     "A Tale Of Two Cities": {
         "title": "A Tale Of Two Cities",
         "author": "Charles Dickens",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 397
     },
     "The Plague Cycle": {
@@ -740,7 +740,7 @@
     "Jane Eyre": {
         "title": "Jane Eyre",
         "author": "Charlotte Bronte",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Literary", "Romance"],
         "numPages": 527
     },
     "These Violent Delights": {
@@ -914,7 +914,7 @@
     "Wuthering Heights": {
         "title": "Wuthering Heights",
         "author": "Emily Bronte",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Literary", "Romance"],
         "numPages": 334
     },
     "She Came To Slay": {
@@ -930,9 +930,9 @@
         "numPages": 371
     },
     "Crime And Punishment ": {
-        "title": "Crime And Punishment ",
+        "title": "Crime And Punishment",
         "author": "Fyodor Dostoevsky",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Literary"],
         "numPages": 671
     },
     "The Borgias": {
@@ -986,7 +986,7 @@
     "The Odyssey": {
         "title": "The Odyssey",
         "author": "Homer",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Poetry"],
         "numPages": 365
     },
     "Wool": {
@@ -1022,7 +1022,7 @@
     "Sense And Sensibility": {
         "title": "Sense And Sensibility",
         "author": "Jane Austen",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Romance"],
         "numPages": 337
     },
     "Through A Window": {
@@ -1058,7 +1058,7 @@
     "A Confederacy of Dunces": {
         "title": "A Confederacy of Dunces",
         "author": "John Kennedy Toole",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 462
     },
     "Perfect Nightmare": {
@@ -1070,13 +1070,13 @@
     "The Winter Of Our Discontent": {
         "title": "The Winter Of Our Discontent",
         "author": "John Steinbeck",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 358
     },
     "Grapes Of Wrath": {
         "title": "Grapes Of Wrath",
         "author": "John Steinbeck",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Literary", "Historical"],
         "numPages": 581
     },
     "Che Guevara": {
@@ -1094,7 +1094,7 @@
     "Gulliver's Travels": {
         "title": "Gulliver's Travels",
         "author": "Jonathan Swift",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Fantasy"],
         "numPages": 295
     },
     "The Book Of Mormon": {
@@ -1166,7 +1166,7 @@
     "Ringworld": {
         "title": "Ringworld",
         "author": "Larry Niven",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Science Fiction"],
         "numPages": 342
     },
     "Six Of Crows": {
@@ -1244,7 +1244,7 @@
     "Circe": {
         "title": "Circe",
         "author": "Madeline Miller",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Historical", "Literary"],
         "numPages": 385
     },
     "An Excess Male": {
@@ -1262,7 +1262,7 @@
     "Great American Short Stories": {
         "title": "Great American Short Stories",
         "author": "Many",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Short Stories"],
         "numPages": 782
     },
     "Unnatural Selection": {
@@ -1274,7 +1274,7 @@
     "Gone With The Wind": {
         "title": "Gone With The Wind",
         "author": "Margaret Mitchell",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Historical", "Romance"],
         "numPages": 1024
     },
     "Silver, Sword, &  Stone": {
@@ -1304,7 +1304,7 @@
     "Works of Mark Twain": {
         "title": "Works of Mark Twain",
         "author": "Mark Twain",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 690
     },
     "I am the Messenger": {
@@ -1352,13 +1352,13 @@
     "The Tale of Genji vol 2": {
         "title": "The Tale of Genji vol 2",
         "author": "Murasaki Shikibu",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 569
     },
     "The Tale of Genji vol 1": {
         "title": "The Tale of Genji vol 1",
         "author": "Murasaki Shikibu",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 521
     },
     "The Gilded Ones": {
@@ -1376,7 +1376,7 @@
     "The Scarlet Letter": {
         "title": "The Scarlet Letter",
         "author": "Nathaniel Hawthorne",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Historical"],
         "numPages": 290
     },
     "In The Heart Of The Sea": {
@@ -1388,13 +1388,13 @@
     "Be More Chill": {
         "title": "Be More Chill",
         "author": "Ned Vizzini",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Science Fiction", "Young Adult"],
         "numPages": 287
     },
     "American Gods": {
         "title": "American Gods",
         "author": "Neil Gaiman",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy"],
         "numPages": 541
     },
     "Evita": {
@@ -1436,7 +1436,7 @@
     "The Good Earth": {
         "title": "The Good Earth",
         "author": "Pearl S. Buck",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical"],
         "numPages": 418
     },
     "The New Silk Roads": {
@@ -1466,19 +1466,19 @@
     "The Poppy War": {
         "title": "The Poppy War",
         "author": "R. F. Kuang",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Historical"],
         "numPages": 527
     },
     "The Dragon Republic": {
         "title": "The Dragon Republic",
         "author": "R. F. Kuang",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Historical"],
         "numPages": 654
     },
     "The Burning God": {
         "title": "The Burning God",
         "author": "R. F. Kuang",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Historical"],
         "numPages": 614
     },
     "Fathoms": {
@@ -1508,13 +1508,13 @@
     "Daughter Of The Deep": {
         "title": "Daughter Of The Deep",
         "author": "Rick Riordan",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Middle Grade", "Science Fiction"],
         "numPages": 336
     },
     "The Bone Witch": {
         "title": "The Bone Witch",
         "author": "Rin Chupeco",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Young Adult"],
         "numPages": 425
     },
     "The Man Who Touched His Own Heart": {
@@ -1544,7 +1544,7 @@
     "Light From Uncommon Stars": {
         "title": "Light From Uncommon Stars",
         "author": "Ryka Aoki",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Science Fiction", "LGBT"],
         "numPages": 369
     },
     "Hymns Of The Republic": {
@@ -1586,13 +1586,13 @@
     "The Girl Who Played with Fire": {
         "title": "The Girl Who Played with Fire",
         "author": "Stieg Larsson",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Crime", "Mystery", "Thriller"],
         "numPages": 503
     },
     "The Girl Who Kicked the Hornet's Nest": {
         "title": "The Girl Who Kicked the Hornet's Nest",
         "author": "Stieg Larsson",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Crime", "Mystery", "Thriller"],
         "numPages": 563
     },
     "The Art Of War": {
@@ -1622,13 +1622,13 @@
     "Under The Whispering Door": {
         "title": "Under The Whispering Door",
         "author": "T. J. Klune",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Fantasy", "LGBT"],
         "numPages": 373
     },
     "Schindler's List": {
         "title": "Schindler's List",
         "author": "Thomas Keneally",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical"],
         "numPages": 397
     },
     "The Killing Of Crazy Horse": {
@@ -1646,7 +1646,7 @@
     "The Bluest Eye": {
         "title": "The Bluest Eye",
         "author": "Toni Morrison",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Literary"],
         "numPages": 206
     },
     "Confederates In The Attic": {
@@ -1670,13 +1670,13 @@
     "The Dispossessed": {
         "title": "The Dispossessed",
         "author": "Ursula K. Le Guin",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Speculative Fiction", "Science Fiction"],
         "numPages": 387
     },
     "Tales From Earthsea": {
         "title": "Tales From Earthsea",
         "author": "Ursula K. Le Guin",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Short Stories"],
         "numPages": 280
     },
     "Two Lives": {
@@ -1742,19 +1742,19 @@
     "Heartstopper 3": {
         "title": "Heartstopper 3",
         "author": "Alice Oseman",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Graphic Novel", "LGBT"],
         "numPages": 351
     },
     "Heartstopper 2": {
         "title": "Heartstopper 2",
         "author": "Alice Oseman",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Graphic Novel", "LGBT"],
         "numPages": 320
     },
     "HeartStopper": {
         "title": "HeartStopper",
         "author": "Alice Oseman",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Graphic Novel", "LGBT"],
         "numPages": 263
     },
     "Maus II": {
@@ -1778,7 +1778,7 @@
     "Beijing Comrades": {
         "title": "Beijing Comrades",
         "author": "Bei Tong",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "LGBT"],
         "numPages": 380
     },
     "Baba": {
@@ -1832,7 +1832,7 @@
     "Fullmetal Alchemist": {
         "title": "Fullmetal Alchemist",
         "author": "Hiromu Arakawa",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Manga", "Science Fiction"],
         "numPages": 269
     },
     "History Makers": {
@@ -1898,25 +1898,25 @@
     "China Mountain Zhang": {
         "title": "China Mountain Zhang",
         "author": "Maureen F. McHugh",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "LGBT", "Science Fiction", "Speculative Fiction"],
         "numPages": 311
     },
     "The Scum Villan's Self-Saving System Vol 1": {
         "title": "The Scum Villan's Self-Saving System Vol 1",
         "author": "Mo Xiang Tong Xiu",
-        "genre": ["MXTX", "Fiction"],
+        "genre": ["MXTX", "Fiction", "Fantasy", "LGBT", "Romance"],
         "numPages": 291
     },
     "The Grandmaster Of Demonic Cultivation Vol 1": {
         "title": "The Grandmaster Of Demonic Cultivation Vol 1",
         "author": "Mo Xiang Tong Xiu",
-        "genre": ["MXTX", "Fiction"],
+        "genre": ["MXTX", "Fiction", "Fantasy", "LGBT", "Romance"],
         "numPages": 350
     },
     "Heaven Official's Blessing Vol 1": {
         "title": "Heaven Official's Blessing Vol 1",
         "author": "Mo Xiang Tong Xiu",
-        "genre": ["MXTX", "Fiction"],
+        "genre": ["MXTX", "Fiction", "Fantasy", "LGBT", "Romance"],
         "numPages": 372
     },
     "The Way To Rainy Mountain": {
@@ -1934,7 +1934,7 @@
     "Lore Olympus vol 1": {
         "title": "Lore Olympus vol 1",
         "author": "Rachel Smythe",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Graphic Novel", "Romance"],
         "numPages": 384
     },
     "The Thrilling Adventures of Lovelace And Babage": {
@@ -1946,7 +1946,7 @@
     "The Jungle": {
         "title": "The Jungle",
         "author": "Upton Sinclair",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 373
     },
     "Sexuality: A Very Short Introduction": {
@@ -1982,13 +1982,13 @@
     "Cemetery Boys": {
         "title": "Cemetery Boys",
         "author": "Aiden Thomas",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "LGBT", "Fantasy", "Romance", "Young Adult"],
         "numPages": 344
     },
     "Refugee": {
         "title": "Refugee",
         "author": "Alan Grantz",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical", "Middle Grade", "Young Adult"],
         "numPages": 338
     },
     "Dear Girls": {
@@ -2012,25 +2012,25 @@
     "The Joy Luck Club": {
         "title": "The Joy Luck Club",
         "author": "Amy Tan",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Literary"],
         "numPages": 288
     },
     "The Martian": {
         "title": "The Martian",
         "author": "Andy Weir",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Science Fiction"],
         "numPages": 435
     },
     "Artemis": {
         "title": "Artemis",
         "author": "Andy Weir",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Science Fiction"],
         "numPages": 305
     },
     "The Hate You Give": {
         "title": "The Hate You Give",
         "author": "Angie Thomas",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Young Adult"],
         "numPages": 444
     },
     "Marie Antoinette": {
@@ -2042,13 +2042,13 @@
     "How It All Blew Up": {
         "title": "How It All Blew Up",
         "author": "Arvin Ahmadi",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "LGBT", "Travel", "Young Adult"],
         "numPages": 304
     },
     "Tender Is The Flesh": {
         "title": "Tender Is The Flesh",
         "author": "Augustina Bazterrica",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Dystoptian", "Horror", "Science Fiction"],
         "numPages": 209
     },
     "Eat The Buddha": {
@@ -2066,19 +2066,19 @@
     "Abriendo Puertas": {
         "title": "Abriendo Puertas",
         "author": "Bowen y Bowen",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 638
     },
     "Dracula": {
         "title": "Dracula",
         "author": "Bram Stoker",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Fantasy", "Horror"],
         "numPages": 413
     },
     "The Vanishing Half": {
         "title": "The Vanishing Half",
         "author": "Brit Bennet",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Literary", "Historical"],
         "numPages": 343
     },
     "Just Mercy": {
@@ -2120,7 +2120,7 @@
     "Oliver Twist": {
         "title": "Oliver Twist",
         "author": "Charles Dickens",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Historical"],
         "numPages": 506
     },
     "Gods of The Upper Air": {
@@ -2156,25 +2156,25 @@
     "The Road": {
         "title": "The Road",
         "author": "Cormac McCarthy",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Dystoptian", "Science Fiction", "Speculative Fiction"],
         "numPages": 241
     },
     "Flowers For Algernon": {
         "title": "Flowers For Algernon",
         "author": "Daniels KeYes",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Science"],
         "numPages": 311
     },
     "The Divine Comedy": {
         "title": "The Divine Comedy",
         "author": "Dante Alighieri",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Poetry"],
         "numPages": 693
     },
     "Rebecca": {
         "title": "Rebecca",
         "author": "Daphnie duMaurier",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Mystery", "Romance"],
         "numPages": 380
     },
     "John Adams": {
@@ -2198,7 +2198,7 @@
     "Frankly In Love": {
         "title": "Frankly In Love",
         "author": "David Yoon",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Romance", "Young Adult"],
         "numPages": 406
     },
     "Bury My Heart At Wounded Knee": {
@@ -2216,7 +2216,7 @@
     "Edgar Allan Poe Classic Stories": {
         "title": "Edgar Allan Poe Classic Stories",
         "author": "Edgar Allan Poe",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Classic", "Horror", "Mystery", "Poetry", "Short Stories"],
         "numPages": 348
     },
     "The Rise Of Theodore Roosevelt": {
@@ -2270,7 +2270,7 @@
     "The Great Gatsby": {
         "title": "The Great Gatsby",
         "author": "F. Scott Fitzgerald",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Literary"],
         "numPages": 182
     },
     "Cheaper By The Dozen": {
@@ -2294,7 +2294,7 @@
     "Uncle Tom's Cabin": {
         "title": "Uncle Tom's Cabin",
         "author": "Harriet Beecher Stowe",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Historical"],
         "numPages": 462
     },
     "Lab Girl": {
@@ -2324,19 +2324,19 @@
     "Pride And Prejudice": {
         "title": "Pride And Prejudice",
         "author": "Jane Austen",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Romance"],
         "numPages": 375
     },
     "Persuasion": {
         "title": "Persuasion",
         "author": "Jane Austen",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Romance"],
         "numPages": 238
     },
     "Emma": {
         "title": "Emma",
         "author": "Jane Austen",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Romance"],
         "numPages": 448
     },
     "The Road To Dawn": {
@@ -2360,7 +2360,7 @@
     "Butterfly Swords": {
         "title": "Butterfly Swords",
         "author": "Jeannie Lin",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical", "Romance"],
         "numPages": 282
     },
     "The Underground Girls Of Kabul": {
@@ -2402,37 +2402,37 @@
     "Paradise Lost": {
         "title": "Paradise Lost",
         "author": "John Milton",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Poetry"],
         "numPages": 403
     },
     "The Pearl": {
         "title": "The Pearl",
         "author": "John Steinbeck",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Classic", "Literary"],
         "numPages": 90
     },
     "Of Mice and Men": {
         "title": "Of Mice and Men",
         "author": "John Steinbeck",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Literary"],
         "numPages": 107
     },
     "The Golem's Eye": {
         "title": "The Golem's Eye",
         "author": "Johnathan Stroud",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Young Adult"],
         "numPages": 556
     },
     "Amulet Of Samarkand": {
         "title": "Amulet Of Samarkand",
         "author": "Johnathan Stroud",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Young Adult"],
         "numPages": 464
     },
     "Ptolemy's Gate": {
         "title": "Ptolemy's Gate",
         "author": "Jonathan Stroud",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Young Adult"],
         "numPages": 501
     },
     "Wild Swans": {
@@ -2450,7 +2450,7 @@
     "Cinderella Is Dead": {
         "title": "Cinderella Is Dead",
         "author": "Kalynn Bayron",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "LGBT", "Fantasy", "Young Adult"],
         "numPages": 385
     },
     "Radium Girls": {
@@ -2462,49 +2462,49 @@
     "The Wall Of Storms": {
         "title": "The Wall Of Storms",
         "author": "Ken Liu",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "LGBT"],
         "numPages": 852
     },
     "The Grace Of Kings": {
         "title": "The Grace Of Kings",
         "author": "Ken Liu",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy"],
         "numPages": 618
     },
     "Rich People Problems": {
         "title": "Rich People Problems",
         "author": "Kevin Kwan",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Romance"],
         "numPages": 590
     },
     "Crazy Rick Asians": {
         "title": "Crazy Rick Asians",
         "author": "Kevin Kwan",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Romance"],
         "numPages": 559
     },
     "China Rich Girlfriend": {
         "title": "China Rich Girlfriend",
         "author": "Kevin Kwan",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Romance"],
         "numPages": 524
     },
     "Kite Runner": {
         "title": "Kite Runner",
         "author": "Khaled Hosseini",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Historical", "Literary"],
         "numPages": 371
     },
     "A Thousand Splendid Suns": {
         "title": "A Thousand Splendid Suns",
         "author": "Khaled Hosseini",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Historical", "Literary"],
         "numPages": 367
     },
     "Speak": {
         "title": "Speak",
         "author": "Laurie Halse Anderson",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Young Adult"],
         "numPages": 198
     },
     "Shout": {
@@ -2516,19 +2516,19 @@
     "Ninth House": {
         "title": "Ninth House",
         "author": "Leigh Bardugo",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Mystery"],
         "numPages": 458
     },
     "War And Peace": {
         "title": "War And Peace",
         "author": "Leo Tolstoy",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Historical", "Literary"],
         "numPages": 1110
     },
     "Anna Karenina": {
         "title": "Anna Karenina",
         "author": "Leo Tolstoy",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Historical", "Literary"],
         "numPages": 870
     },
     "Mao's Last Dancer": {
@@ -2552,31 +2552,31 @@
     "The First Sister": {
         "title": "The First Sister",
         "author": "Linden A. Lewis",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "LGBT", "Science Fiction"],
         "numPages": 342
     },
     "The Tea Girl Of Hummingbird Lane": {
         "title": "The Tea Girl Of Hummingbird Lane",
         "author": "Lisa See",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical"],
         "numPages": 384
     },
     "The Island Of Sea Women": {
         "title": "The Island Of Sea Women",
         "author": "Lisa See",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical"],
         "numPages": 365
     },
     "Snow Flower And The Secret Fan": {
         "title": "Snow Flower And The Secret Fan",
         "author": "Lisa See",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical"],
         "numPages": 288
     },
     "Little Women": {
         "title": "Little Women",
         "author": "Louisa May Alcott",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction"],
         "numPages": 520
     },
     "If The Walls Could Talk": {
@@ -2600,43 +2600,43 @@
     "Winter": {
         "title": "Winter",
         "author": "Marissa Meyer",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Science Fiction", "Young Adult"],
         "numPages": 819
     },
     "Scarlet": {
         "title": "Scarlet",
         "author": "Marissa Meyer",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Science Fiction", "Young Adult"],
         "numPages": 454
     },
     "The Curious Incident of the Night-time": {
         "title": "The Curious Incident of the Night-time",
         "author": "Mark Haddon",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Mystery", "Contemporary", "Young Adult"],
         "numPages": 221
     },
     "The Adventures of Tom Sawyer": {
         "title": "The Adventures of Tom Sawyer",
         "author": "Mark Twain",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Literary", "Historical"],
         "numPages": 206
     },
     "The Book Thief": {
         "title": "The Book Thief",
         "author": "Markus Zusak",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical", "Young Adult"],
         "numPages": 552
     },
     "Stronger Than A Bronze Dragon": {
         "title": "Stronger Than A Bronze Dragon",
         "author": "Mary Fan",
-        "genre": ["Fiction"],
+        "genre": ["Fiction","Fantasy", "Young Adult"],
         "numPages": 372
     },
     "Frankenstein": {
         "title": "Frankenstein",
         "author": "Mary Shelley",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Horror", "Science Fiction"],
         "numPages": 282
     },
     "I Know Why The Caged Bird Sings": {
@@ -2660,7 +2660,7 @@
     "All's Well": {
         "title": "All's Well",
         "author": "Mona Awad",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Literary"],
         "numPages": 354
     },
     "Before The Dawn": {
@@ -2672,7 +2672,7 @@
     "The Sun Is Also A Star": {
         "title": "The Sun Is Also A Star",
         "author": "Nicola Yoon",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Romance", "Young Adult"],
         "numPages": 344
     },
     "Vacation Guide To The Solar System": {
@@ -2702,13 +2702,13 @@
     "The Other Boleyn Girl": {
         "title": "The Other Boleyn Girl",
         "author": "Philippa Gregory",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical", "Romance"],
         "numPages": 661
     },
     "Black Sun": {
         "title": "Black Sun",
         "author": "Rebecca Roanhorse",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "LGBT"],
         "numPages": 450
     },
     "The Immortal Life Of Henrietta Lacks": {
@@ -2726,7 +2726,7 @@
     "Native Son": {
         "title": "Native Son",
         "author": "Richard Wright",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Race Relations"],
         "numPages": 504
     },
     "Underland": {
@@ -2762,7 +2762,7 @@
     "The Outsiders": {
         "title": "The Outsiders",
         "author": "S. E. Hinton",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Classic", "Young Adult"],
         "numPages": 180
     },
     "The Education Of An Idealist": {
@@ -2774,13 +2774,13 @@
     "Water For Elephants": {
         "title": "Water For Elephants",
         "author": "Sara Gruen",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical", "Romance"],
         "numPages": 331
     },
     "Race The Sands": {
         "title": "Race The Sands",
         "author": "Sarah Beth Durst",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy"],
         "numPages": 528
     },
     "The Gene": {
@@ -2798,43 +2798,43 @@
     "The Downstairs Girl": {
         "title": "The Downstairs Girl",
         "author": "Stacy Lee",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Historical", "Young Adult"],
         "numPages": 369
     },
     "The Only Good Indians": {
         "title": "The Only Good Indians",
         "author": "Stephen Graham Jones",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Horror", "Thriller"],
         "numPages": 305
     },
     "The Shining": {
         "title": "The Shining",
         "author": "Stephen King",
-        "genre": ["Fiction"],
+        "genre": ["Fiction","Horror", "Thriller"],
         "numPages": 447
     },
     "Salem's Lot": {
         "title": "Salem's Lot",
         "author": "Stephen King",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Horror", "Thriller"],
         "numPages": 381
     },
     "The Long Walk": {
         "title": "The Long Walk",
         "author": "Steven King",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Dystoptian"],
         "numPages": 391
     },
     "The Girl With The Dragon Tatoo": {
         "title": "The Girl With The Dragon Tatoo",
         "author": "Stieg Larsson",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Mystery", "Thriller"],
         "numPages": 590
     },
     "Daughter Of The Moon Goddess": {
         "title": "Daughter Of The Moon Goddess",
         "author": "Sue Lynn Tan",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Romance"],
         "numPages": 498
     },
     "A Beautiful Mind": {
@@ -2846,13 +2846,13 @@
     "Harrow The Ninth": {
         "title": "Harrow The Ninth",
         "author": "Tamsyn Muir",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "LGBT", "Fantasy", "Science Fiction"],
         "numPages": 512
     },
     "Gideon The Ninth": {
         "title": "Gideon The Ninth",
         "author": "Tamsyn Muir",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "LGBT", "Fantasy", "Science Fiction"],
         "numPages": 448
     },
     "Educated": {
@@ -2882,19 +2882,19 @@
     "There There": {
         "title": "There There",
         "author": "Tommy Orange",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Contemporary", "Literary"],
         "numPages": 290
     },
     "Song of Solomon": {
         "title": "Song of Solomon",
         "author": "Toni Morrison",
-        "genre": ["Classic"],
+        "genre": ["Classic", "Fiction", "Magical Realism"],
         "numPages": 337
     },
     "Beloved": {
         "title": "Beloved",
         "author": "Toni Morrison",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Classic", "Historical", "Magical Realism", "Literary"],
         "numPages": 324
     },
     "Born A Crime": {
@@ -2912,13 +2912,13 @@
     "Iron Widow": {
         "title": "Iron Widow",
         "author": "Xiran Jay Zhao",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "LGBT", "Science Fiction", "Young Adult"],
         "numPages": 391
     },
     "Life Of Pi": {
         "title": "Life Of Pi",
         "author": "Yann Martel",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy"],
         "numPages": 460
     },
     "Sapiens": {
@@ -2936,13 +2936,13 @@
     "She Who Became The Sun": {
         "title": "She Who Became The Sun",
         "author": "Shelley Parker-Chan",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Fantasy", "Historical", "LGBT"],
         "numPages": 411
     },
     "Proof Of Me": {
         "title": "Proof Of Me",
         "author": "Erica Plouffe Lazure",
-        "genre": ["Fiction"],
+        "genre": ["Fiction", "Short Stories", "Contemporary"],
         "numPages": 248
     }
 }
