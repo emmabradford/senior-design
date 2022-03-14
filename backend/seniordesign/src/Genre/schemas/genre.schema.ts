@@ -10,5 +10,5 @@ export class Genre extends Document
 
 }
  
-export const BookSchema = SchemaFactory.createForClass(Genre);
+export const GenreSchema = SchemaFactory.createForClass(Genre);
 
