@@ -38,7 +38,7 @@ export class AppService {
     else {
       while (recs.length < numRec) {
         let b = books[Math.floor(Math.random() * books.length)]
-        if (recs.indexOf(books) == -1) {
+        if (recs.indexOf(b) == -1) {
           recs.push(b);
         }
       }
