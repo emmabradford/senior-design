@@ -25,15 +25,20 @@ export class AppService {
 
     books = books.filter(d => d.numPages > minPage);
     books = books.filter(d => d.numPages < maxPage);
+    let books1 = [];
     if (g) {
       for (let i = 0; i < g.length; i++) {
-        books = books.filter(d => d.genre.includes(g[i]));
+        books.filter(d => {
+          if(d.genre.includes(g[i])){
+            books1.push(d);
+          }
+        });
       }
     }
+    books = books1;
     let recs = [];
     if (books.length <= numRec) {
       return books;
-
     }
     else {
       while (recs.length < numRec) {
