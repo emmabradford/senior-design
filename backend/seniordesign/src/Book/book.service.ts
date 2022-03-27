@@ -20,8 +20,8 @@ export class BooksService {
         return results;
     }
 
-    async getBookById(i: number): Promise<BookDto> {
-        const result = this.bookModel.findOne({ i }, bookProjection);
+    async getBookById(i: string): Promise<BookDto> {
+        const result = this.bookModel.findById(i);
         return await result.exec();
     }
 

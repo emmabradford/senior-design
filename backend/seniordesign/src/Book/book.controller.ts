@@ -20,7 +20,7 @@ export class BooksController {
     }
 
     @Get(':id')
-    async getBookById(@Param('id') i: number) {
+    async getBookById(@Param('id') i: string) {
         console.log(i);
         try {
             const result = await this.booksService.getBookById(i);
@@ -51,9 +51,8 @@ export class BooksController {
         @Body('genre') g: [string]
     ) {
         try {
-            await this.booksService.updateBook(i, t, a, np, g);
-
-            return null;
+            const result =  await this.booksService.updateBook(i, t, a, np, g);
+            return result;
         } catch (err) {
             console.error(err);
             throw new HttpException('Error! Cannot patch book', 400);
@@ -63,8 +62,8 @@ export class BooksController {
     @Delete(':id')
     async deleteBooks(@Param('id') i: string) {
         try {
-            await this.booksService.deleteBook(i);
-            return null;
+           const restult = await this.booksService.deleteBook(i);
+           return restult;
         }
         catch (err) {
             console.error(err);
