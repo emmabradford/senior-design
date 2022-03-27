@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Book List Generator</title>
+        <meta charset="UTF-8">
+        <link rel="icon" href="data:;base64,iVBORwOKGO=" />
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>    
+
+    <div class="main">
+        <span class="title"><p>To-Be-Read Book List Generator</p></span>
+        
+        <div class = "primarymenu">
+            <form id = "genre" class = "selectbox">
+                <select id = "genrebox">
+                    <option value = 'default'>Genre</option>
+                    <option value = 'sah'>South American History</option>
+                    <option value = 'nonfic'>Nonfiction</option>
+                    <option value = 'history'>History</option>
+                    <option value = 'anthropology'>Anthropology</option>
+                    <option value = 'civwar'>Civil War</option>
+                    <option value = 'modhistory'>Modern History</option>
+                    <option value = 'gender'>Gender Studies</option>
+                    <option value = 'china'>China</option>
+                    <option value = 'art'>Art</option>
+                    <option value = 'fic'>Fiction</option>
+                    <option value = 'fantasy'>Fantasy</option>
+                    <option value = 'romance'>Romance</option>
+                    <option value = 'nativeamerican'>Native Americans</option>
+                    <option value = 'youngadult'>Young Adult</option>
+                    <option value = 'americahistory'>American History</option>
+                    <option value = 'memoir'>Memoir</option>
+                    <option value = 'graphnov'>Graphic Novel</option>
+                    <option value = 'midgrade'>Middle Grade</option>
+                    <option value = 'religion'>Religion</option>
+                    <option value = 'poetry'>Poetry</option>
+                    <option value = 'lgbt'>LGBT</option>
+                    <option value = 'sci'>Science</option>
+                    <option value = 'MXTX'>MXTX</option>
+                    <option value = 'historical'>Historical</option>
+                    <option value = 'biography'>Biography</option>
+                    <option value = 'horror'>Horror</option>
+                    <option value = 'magicrealism'>Magical Realism</option>
+                    <option value = 'scifi'>Science Fiction</option>
+                    <option value = 'mystery'>Mystery</option>
+                    <option value = 'classic'>Classic</option>
+                    <option value = 'lit'>Literary</option>
+                    <option value = 'shortstories'>Short Stories</option>
+                    <option value = 'thriller'>Thriller</option>
+                    <option value = 'ww2'>WWII</option>
+                    <option value = 'dystopian'>Dystopian</option>
+                    <option value = 'specfic'>Speculative Fiction</option>
+                    <option value = 'contemp'>Contemporary</option>
+                    <option value = 'racerelate'>Race Relations</option>
+                    <option value = 'crime'>Crime</option>
+                    <option value = 'manga'>Manga</option>
+                    <option value = 'travel'>Travel</option>
+                </select>
+            </form>
+            <form id = "minpagecount" class = "txtinpt">
+                <input class = "pgs" type = "text" id = "minpage" name = "minpage" value = "Min pages"></input>
+            </form>
+
+            <form id = "maxpagecount" class = "txtinpt">
+                <input class = "pgs" type = "text" id = "maxpage" name = "maxpage" value = "Max pages"></input>
+            </form>
+
+            <form id = "numrecs" class = "txtinpt">
+                <input class = "recs" type = "text" id = "numrecs" name = "numrecs" value = "# Recs"></input>
+            </form>
+
+            <form id = "inputbox" class = "txtinpt">
+                <input class = "inpt" type = "submit" id = "inpt" name = "inpt" value = "Generate"></input>
+            </form>
+
+            <br><div class="resultbox">
+                <div class="bookinfo" id = "template"></div>
+            </div>
+        </div>
+
+        <script src="js/main.js"></script>
+    </div>
+    </body>
+</html>
