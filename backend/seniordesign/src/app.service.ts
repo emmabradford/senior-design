@@ -13,6 +13,9 @@ export class AppService {
   ) { }
   async getRecs(numRec: number, minPage: number, maxPage: number, g: Array<string>) {
     let books = await this.bookModel.find();
+    if(g == null){
+      g = ["Nonfiction", "Fiction"];
+    }
     if (minPage == null) {
       minPage = 0;
     }
@@ -25,8 +28,9 @@ export class AppService {
 
     books = books.filter(d => d.numPages > minPage);
     books = books.filter(d => d.numPages < maxPage);
+
     let books1 = [];
-    if (g) {
+    //if (g) {
       for (let i = 0; i < g.length; i++) {
         books.filter(d => {
           if(d.genre.includes(g[i])){
@@ -34,8 +38,9 @@ export class AppService {
           }
         });
       }
-    }
-    books = books1;
+      books = books1;
+   // }
+    
     let recs = [];
     if (books.length <= numRec) {
       return books;

@@ -15,6 +15,7 @@ export class AppController {
   ) {
     try {
       const result = await this.appService.getRecs(numRec, minPage, maxPage, g);
+      console.log("hello");
       return result;
     }
     catch (err) {
